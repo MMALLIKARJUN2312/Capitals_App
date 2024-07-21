@@ -1,0 +1,82 @@
+/* Write your CSS here */
+
+* {
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+
+.card-container {
+  border-radius: 14px;
+  background-color: #f8fafc;
+  padding: 21px;
+  width: 95%;
+  height: 300px;
+  max-width: 500px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  color: #1e293b;  
+  padding-top: 14px;
+  padding-left: 14px;
+  padding-bottom: 14px;
+
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  padding-top: 14px;
+  padding-left: 14px;
+  padding-bottom: 14px;
+}
+
+.select-capital {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f8fafc;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  outline: none;
+}
+
+.option{
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #323f4b;
+  font-weight: 500;
+}
+
+.question-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.country {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 500;
+  color: #1e293b;
+  margin-top: 14px;
+  padding-top: 14px;
+  padding-left: 14px;
+  padding-bottom: 14px;
+}
